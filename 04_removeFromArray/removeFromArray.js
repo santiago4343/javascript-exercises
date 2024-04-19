@@ -1,7 +1,7 @@
 const removeFromArray = function(arr, ...remFromArray) {
     let filteredArr = remFromArray.map(el => {
         arr.filter(el1 => {
-            el1 == el
+            el1 !== el
         })
     })
     return filteredArr
